@@ -1,0 +1,51 @@
+{
+    "YellowPlayer": {
+        "checkpoints": [
+            {
+                "steps": 112206,
+                "file_path": "results\\war\\YellowPlayer\\YellowPlayer-112206.onnx",
+                "reward": -0.03244005641748942,
+                "creation_time": 1718493380.256889,
+                "auxillary_file_paths": [
+                    "results\\war\\YellowPlayer\\YellowPlayer-112206.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 112206,
+            "file_path": "results\\war\\YellowPlayer.onnx",
+            "reward": -0.03244005641748942,
+            "creation_time": 1718493380.256889,
+            "auxillary_file_paths": [
+                "results\\war\\YellowPlayer\\YellowPlayer-112206.pt"
+            ]
+        }
+    },
+    "BluePlayer": {
+        "checkpoints": [
+            {
+                "steps": 112206,
+                "file_path": "results\\war\\BluePlayer\\BluePlayer-112206.onnx",
+                "reward": 0.03244005641748942,
+                "creation_time": 1718493380.3581004,
+                "auxillary_file_paths": [
+                    "results\\war\\BluePlayer\\BluePlayer-112206.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 112206,
+            "file_path": "results\\war\\BluePlayer.onnx",
+            "reward": 0.03244005641748942,
+            "creation_time": 1718493380.3581004,
+            "auxillary_file_paths": [
+                "results\\war\\BluePlayer\\BluePlayer-112206.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu117"
+    }
+}
